@@ -4,8 +4,12 @@ import Order from "./components/Order";
 function App() {
   return (
     <div className="flex items-center justify-center h-screen">
-      {/* <Order/> */}
-      <FileViewer fileUrl="backgroundImage.pdf" fileType="application/pdf"/>
+      <FileViewer fileUrl="./backgroundImage.pdf" fileType="application/pdf" />
+
+      <FileViewer
+        fileUrl="src/assets/images/fishRoll.jpg"
+        fileType="image/jpg"
+      />
     </div>
   );
 }
